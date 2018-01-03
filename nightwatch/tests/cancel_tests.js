@@ -13,9 +13,17 @@ module.exports = {
     browser
     .click(selectors.tabs.cancelTab)
     .pause(100)
+    browser.expect.element(selectors.fields.rfc).to.be.present
+    browser
     .click(selectors.tabs.modifyTab)
     .pause(100)
+    browser.expect.element(selectors.fields.wid).to.be.present
+    browser.expect.element(selectors.fields.rfc).to.not.be.present
+    browser
     .click(selectors.tabs.enterTab)
+    .pause(100)
+    browser.expect.element(selectors.fields.nam).to.be.present
+    browser.expect.element(selectors.fields.wid).to.not.be.present
     //click each tab and wait for response to verifynavigation capabilities
 },
     'I can enter valid data into all of the fields on the Cancel Wanted page and have it generate a text blob correctly': browser => {

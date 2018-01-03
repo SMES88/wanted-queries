@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="cancel_tests"
+    errors="1" failures="0" hostname="" id="" package="cancel_tests" skipped="3"
+    tests="4" time="0.01000" timestamp="Wed, 03 Jan 2018 22:05:04 GMT">
+  
+    <testcase name="I can navigate between pages" classname="cancel_tests" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Cancel Tests / I can navigate between pages]:
+
+  TypeError: browser.expect.url is not a function
+    at Object.I can navigate between pages (C:\Users\nedwi\OneDrive\Documents\Devmountain\Code\wanted-queries\nightwatch\tests\cancel_tests.js:16:20)
+    at Module.call (C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\nedwi\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="I can enter valid data into all of the fields on the Cancel Wanted page and have it generate a text blob correctly" classname="cancel_tests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="I can enter valid data into the Warrant ID and Date fields and leave the Reason for cancelation blank and receive and error message" classname="cancel_tests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="I can enter valid data into the Warrant ID and Date fields and invalid data into the Reason for cancelation field and receive an error message" classname="cancel_tests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

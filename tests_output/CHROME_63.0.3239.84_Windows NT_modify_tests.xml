@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="modify_tests"
+    errors="0" failures="0" hostname="" id="" package="modify_tests" skipped="0"
+    tests="1" time="9.587" timestamp="Wed, 03 Jan 2018 21:13:52 GMT">
+  
+    <testcase name="I can enter valid data into the warrant ID and at least one other field and get a valid modified text blob" classname="modify_tests" time="9.587" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
